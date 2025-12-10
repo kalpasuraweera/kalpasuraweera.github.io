@@ -1,2 +1,3 @@
 name: Kalpa Suraweera, System Researcher
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
