@@ -6,3 +6,9 @@ title: Kalpa Suraweera, System Researcher
 	<h1>Hi there, I'm Kalpa Suraweera!</h1>
 	<p>I'm a student at <em>UCSC</em> Colombo. <a href="/about">Read more about me...</a></p>
 </div><!-- /.blurb -->
+Recent Posts
+<ul class="posts">
+  {% for post in site.posts %}
+	<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
